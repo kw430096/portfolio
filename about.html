@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — TRIPICK</title>
+  <meta name="description" content="TRIPICK 소개. 취향 퀴즈와 규칙 기반 매칭으로 나에게 맞는 여행지를 추천하는 맞춤 여행 서비스의 목표와 이용 방법을 소개합니다.">
+  <link rel="icon" href="images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-main page-about">
+  <a class="skip-link" href="#main-content">본문 바로가기</a>
+  <header class="top">
+    <div class="inner">
+      <h1 class="title">
+        <a href="home.html" class="logo-link">
+          <img src="images/logo.png" alt="TRIPICK" class="logo">
+        </a>
+        <span class="txt">
+          <span class="txt2">Your Trip, Our Pick</span>
+        </span>
+      </h1>
+        <p class="header-tagline">나에게 맞는 여행을 찾아보세요 <span class="material-symbols-rounded header-tagline-icon" aria-hidden="true">travel_explore</span></p>
+        <button type="button" class="nav-toggle" aria-label="메뉴 열기" aria-expanded="false" aria-controls="main-menu">
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+        </button>
+      <nav class="menu" id="main-menu" aria-label="메인 메뉴">
+        <div class="menu-hero">
+          <svg class="menu-hero-plane" viewBox="0 0 100 60" fill="none" aria-hidden="true">
+            <path d="M4 44C22 44 26 18 46 14C60 11 70 22 90 10" stroke="currentColor" stroke-width="1.6" stroke-dasharray="3 5" stroke-linecap="round"/>
+            <path d="M86 6l10 4-9 7-1-5-6-2 6-4z" fill="currentColor"/>
+          </svg>
+          <p class="menu-hero-tit">여행은 경험이다,<br>tripick이 함께합니다</p>
+        </div>
+        <div class="menu-links">
+          <a href="recommend.html" class="menu-link">
+            <span class="menu-link-icon material-symbols-rounded" aria-hidden="true">explore</span>
+            <span class="menu-link-label">여행지 추천</span>
+          </a>
+          <a href="browse.html" class="menu-link">
+            <span class="menu-link-icon material-symbols-rounded" aria-hidden="true">map</span>
+            <span class="menu-link-label">여행지 둘러보기</span>
+          </a>
+          <a href="record.html" class="menu-link">
+            <span class="menu-link-icon material-symbols-rounded" aria-hidden="true">edit_note</span>
+            <span class="menu-link-label">여행 기록</span>
+          </a>
+          <a href="about.html" class="menu-link is-active" aria-current="page">
+            <span class="menu-link-icon material-symbols-rounded" aria-hidden="true">info</span>
+            <span class="menu-link-label">About</span>
+          </a>
+          <a href="community.html" class="menu-link">
+            <span class="menu-link-icon material-symbols-rounded" aria-hidden="true">forum</span>
+            <span class="menu-link-label">커뮤니티</span>
+          </a>
+        </div>
+        <div class="menu-social" role="group" aria-label="소셜 미디어 (데모, 장식)">
+          <span class="menu-social-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.8"/>
+              <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8"/>
+              <circle cx="17.2" cy="6.8" r="1" fill="currentColor"/>
+            </svg>
+          </span>
+          <span class="menu-social-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="3" y="6" width="18" height="12" rx="3" stroke="currentColor" stroke-width="1.8"/>
+              <path d="M11 10l5 2-5 2v-4z" fill="currentColor"/>
+            </svg>
+          </span>
+          <span class="menu-social-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M12 3C6.9 3 3 6.3 3 10.4c0 2.6 1.7 4.9 4.3 6.2-.2.8-.7 2.5-.8 2.9-.1.5.2.5.4.4.2-.1 2.5-1.7 3.5-2.4.5.1 1.1.1 1.6.1 5.1 0 9-3.3 9-7.2S17.1 3 12 3z" fill="currentColor"/>
+            </svg>
+          </span>
+          <button type="button" class="menu-social-icon menu-share" aria-label="이 페이지 링크 공유하기">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="18" cy="5" r="2.6" stroke="currentColor" stroke-width="1.8"/>
+              <circle cx="6" cy="12" r="2.6" stroke="currentColor" stroke-width="1.8"/>
+              <circle cx="18" cy="19" r="2.6" stroke="currentColor" stroke-width="1.8"/>
+              <path d="M8.2 10.6l7.6-4.2M8.2 13.4l7.6 4.2" stroke="currentColor" stroke-width="1.8"/>
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="about" id="main-content" tabindex="-1">
+    <section class="about-hero">
+      <div class="inner about-hero-inner">
+        <div class="about-hero-text">
+          <h2 class="about-hero-tit">About <span>TRIPICK</span></h2>
+          <p class="about-hero-sub">Your Trip, Our Pick</p>
+          <p class="about-hero-desc">
+            TRIPICK은 AI 연동을 고려하여 설계한<br>
+            취향 맞춤 여행 추천 서비스입니다.<br>
+            질문에 답하면 어울리는 여행지를 추천하고,<br>
+            여행의 순간을 기록할 수 있도록 도와줍니다.
+          </p>
+          <p class="about-hero-note">
+            현재는 취향 퀴즈와 규칙 기반 매칭으로 추천 UX를 구현했으며,<br>
+            이후 Spring Boot 등 백엔드·AI API 연동을 계획하고 있습니다.
+          </p>
+          <a href="#about-reviews" class="btn">TRIPICK 리뷰 보기 <span class="arrow">→</span></a>
+        </div>
+
+        <div class="about-hero-visual" aria-hidden="true">
+          <div class="about-polaroid about-polaroid-1">
+            <img src="images/hawaii.jpg" alt="">
+          </div>
+          <div class="about-polaroid about-polaroid-2">
+            <img src="images/paris.jpg" alt="">
+          </div>
+          <div class="about-polaroid about-polaroid-3">
+            <img src="images/busan.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-why" id="about-why">
+      <div class="inner">
+        <h3 class="about-sec-tit">TRIPICK이 특별한 이유</h3>
+        <div class="about-why-grid">
+          <article class="about-why-card">
+            <div class="about-why-icon" aria-hidden="true">📍</div>
+            <h4>맞춤 여행지 추천</h4>
+            <p>취향과 여행 스타일을 바탕으로<br>어울리는 여행지를 추천해요.</p>
+          </article>
+          <article class="about-why-card">
+            <div class="about-why-icon" aria-hidden="true">💬</div>
+            <h4>여행 정보 한눈에</h4>
+            <p>여행지 정보, 인기 명소, 팁까지<br>필요한 내용을 모아 보여드려요.</p>
+          </article>
+          <article class="about-why-card">
+            <div class="about-why-icon" aria-hidden="true">📓</div>
+            <h4>나만의 여행 기록</h4>
+            <p>다녀온 여행을 기록하고<br>추억을 오래 남겨 두세요.</p>
+          </article>
+          <article class="about-why-card">
+            <div class="about-why-icon" aria-hidden="true">❤️</div>
+            <h4>더 즐거운 여행 경험</h4>
+            <p>준비부터 기록까지,<br>여행이 더 특별해지도록 도와드려요.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-steps">
+      <div class="inner">
+        <div class="about-steps-box">
+          <h3 class="about-sec-tit">TRIPICK은 이렇게 도와드려요</h3>
+          <ol class="about-steps-list">
+            <li class="about-step">
+              <span class="about-step-num">STEP 01</span>
+              <span class="about-step-icon" aria-hidden="true">📋</span>
+              <strong>취향 입력</strong>
+              <p>여행 스타일과<br>취향을 알려주세요.</p>
+            </li>
+            <li class="about-step">
+              <span class="about-step-num">STEP 02</span>
+              <span class="about-step-icon" aria-hidden="true">🌍</span>
+              <strong>맞춤 추천</strong>
+              <p>답변을 바탕으로<br>여행지를 골라드려요.</p>
+            </li>
+            <li class="about-step">
+              <span class="about-step-num">STEP 03</span>
+              <span class="about-step-icon" aria-hidden="true">🧳</span>
+              <strong>여행 준비</strong>
+              <p>정보와 팁으로<br>여행을 준비하세요.</p>
+            </li>
+            <li class="about-step">
+              <span class="about-step-num">STEP 04</span>
+              <span class="about-step-icon" aria-hidden="true">📷</span>
+              <strong>여행 기록</strong>
+              <p>순간을 기록하고<br>추억을 남겨보세요.</p>
+            </li>
+            <li class="about-step">
+              <span class="about-step-num">STEP 05</span>
+              <span class="about-step-icon" aria-hidden="true">💙</span>
+              <strong>다음 여행</strong>
+              <p>새로운 여행도<br>TRIPICK과 함께해요.</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-mission">
+      <div class="inner">
+        <div class="about-mission-inner">
+        <div class="about-mission-deco" aria-hidden="true">
+          <div class="about-stamp about-stamp-1">
+            <span class="about-stamp-inner">
+              <span class="about-stamp-line">TRIPICK</span>
+              <span class="about-stamp-line about-stamp-line-sm">AIRPORT</span>
+            </span>
+          </div>
+          <div class="about-stamp about-stamp-mission">
+            <span class="about-stamp-inner">
+              <span class="about-stamp-mission-text">MISSION</span>
+            </span>
+          </div>
+          <div class="about-stamp about-stamp-3">
+            <span class="about-stamp-inner">
+              <span class="about-stamp-line">EXPLORE</span>
+              <span class="about-stamp-line about-stamp-line-sm">WORLD</span>
+            </span>
+          </div>
+        </div>
+        <div class="about-mission-text">
+          <h3 class="about-sec-tit about-sec-tit-left">우리의 미션</h3>
+          <p class="about-mission-lead">더 많은 사람들이,<br>더 쉽게 여행을 즐길 수 있도록.</p>
+          <p class="about-mission-desc">
+            TRIPICK은 누구나 자신만의 여행을 발견하고,<br>
+            특별한 기억을 남길 수 있도록 돕습니다.
+          </p>
+        </div>
+        <div class="about-mission-signs" aria-hidden="true">
+          <div class="about-sign about-sign-1">DISCOVER</div>
+          <div class="about-sign about-sign-2">PLAN</div>
+          <div class="about-sign about-sign-3">MEMORY</div>
+          <div class="about-sign about-sign-4">NEXT TRIP</div>
+          <div class="about-sign-pole"></div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-reviews" id="about-reviews">
+      <div class="inner">
+        <h3 class="about-sec-tit">TRIPICK과 함께한 여행자들의 이야기</h3>
+        <div class="about-review-wrap">
+          <button type="button" class="about-review-btn" id="review-prev" aria-label="이전 후기">‹</button>
+          <div class="about-review-viewport">
+            <div class="about-review-track" id="review-track">
+              <article class="about-review-card">
+                <div class="about-review-top">
+                  <span class="about-avatar" aria-hidden="true">민</span>
+                  <div>
+                    <h4 class="about-review-name">민지</h4>
+                    <p class="about-review-stars" role="img" aria-label="별점 5점">★★★★★</p>
+                  </div>
+                </div>
+                <p class="about-review-text">취향만 골랐는데 여행지가 바로 나와서 계획하기가 정말 편했어요. 추천받은 코스가 너무 좋았어요.</p>
+              </article>
+              <article class="about-review-card">
+                <div class="about-review-top">
+                  <span class="about-avatar about-avatar-2" aria-hidden="true">준</span>
+                  <div>
+                    <h4 class="about-review-name">준호</h4>
+                    <p class="about-review-stars" role="img" aria-label="별점 5점">★★★★★</p>
+                  </div>
+                </div>
+                <p class="about-review-text">여행 기록으로 사진과 날짜를 모아두니, 나중에 꺼내 보기 좋아요.</p>
+              </article>
+              <article class="about-review-card">
+                <div class="about-review-top">
+                  <span class="about-avatar about-avatar-3" aria-hidden="true">수</span>
+                  <div>
+                    <h4 class="about-review-name">수연</h4>
+                    <p class="about-review-stars" role="img" aria-label="별점 5점">★★★★★</p>
+                  </div>
+                </div>
+                <p class="about-review-text">어디 갈지 고민될 때 둘러보기랑 추천을 같이 쓰니 선택이 쉬워졌어요. 자주 이용하게 될 것 같아요.</p>
+              </article>
+              <article class="about-review-card">
+                <div class="about-review-top">
+                  <span class="about-avatar about-avatar-4" aria-hidden="true">하</span>
+                  <div>
+                    <h4 class="about-review-name">하린</h4>
+                    <p class="about-review-stars" role="img" aria-label="별점 5점">★★★★★</p>
+                  </div>
+                </div>
+                <p class="about-review-text">친구랑 같이 보며 찜해 둔 여행지로 다음 여행 약속을 잡았어요.</p>
+              </article>
+            </div>
+          </div>
+          <button type="button" class="about-review-btn" id="review-next" aria-label="다음 후기">›</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-cta">
+      <div class="inner">
+        <div class="about-cta-inner">
+        <span class="about-cta-deco" aria-hidden="true">🚐</span>
+        <h2 class="about-cta-text">당신의 다음 여행, TRIPICK과 함께 시작해보세요!</h2>
+        <a href="recommend.html" class="btn">지금 여행지 추천받기 <span class="arrow">→</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer main-footer">
+    <div class="top main-footer-bar">
+      <div class="inner">
+        <div class="title">
+          <a href="home.html" class="logo-link">
+            <img src="images/logo.png" alt="" class="logo">
+          </a>
+          <div class="txt">
+            <span class="txt2">Your Trip, Our Pick</span>
+          </div>
+        </div>
+        <nav class="menu main-footer-menu" aria-label="푸터 메뉴 (데모)">
+          <span class="main-footer-label">이용약관</span>
+          <span class="main-footer-sep" aria-hidden="true">|</span>
+          <span class="main-footer-label">개인정보처리방침</span>
+          <span class="main-footer-sep" aria-hidden="true">|</span>
+          <span class="main-footer-label">문의하기</span>
+        </nav>
+        <div class="main-footer-social" role="group" aria-label="소셜 미디어 (데모, 장식)">
+          <span class="main-footer-social-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.8"/>
+              <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8"/>
+              <circle cx="17.2" cy="6.8" r="1" fill="currentColor"/>
+            </svg>
+          </span>
+          <span class="main-footer-social-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="3" y="6" width="18" height="12" rx="3" stroke="currentColor" stroke-width="1.8"/>
+              <path d="M11 10l5 2-5 2v-4z" fill="currentColor"/>
+            </svg>
+          </span>
+          <span class="main-footer-social-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M12 3C6.9 3 3 6.3 3 10.4c0 2.6 1.7 4.9 4.3 6.2-.2.8-.7 2.5-.8 2.9-.1.5.2.5.4.4.2-.1 2.5-1.7 3.5-2.4.5.1 1.1.1 1.6.1 5.1 0 9-3.3 9-7.2S17.1 3 12 3z" fill="currentColor"/>
+            </svg>
+          </span>
+          <button type="button" class="main-footer-social-icon main-footer-share" aria-label="이 페이지 링크 공유하기">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="18" cy="5" r="2.6" stroke="currentColor" stroke-width="1.8"/>
+              <circle cx="6" cy="12" r="2.6" stroke="currentColor" stroke-width="1.8"/>
+              <circle cx="18" cy="19" r="2.6" stroke="currentColor" stroke-width="1.8"/>
+              <path d="M8.2 10.6l7.6-4.2M8.2 13.4l7.6 4.2" stroke="currentColor" stroke-width="1.8"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="main-footer-rule" aria-hidden="true"></div>
+    <div class="inner main-footer-copy-wrap">
+      <p class="main-footer-copy">
+        <span class="main-footer-copy-line">© 2026 TRIPICK</span>
+        <span class="main-footer-copy-line">All rights reserved.</span>
+        <span class="main-footer-copy-email">kw430@naver.com</span>
+      </p>
+    </div>
+  </footer>
+
+  <script src="about.js"></script>
+  <script src="nav.js"></script>
+  <script src="share.js?v=3"></script>
+</body>
+</html>

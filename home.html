@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>홈 — TRIPICK</title>
+  <meta name="description" content="TRIPICK 홈. 인기 여행지와 취향 맞춤 추천, 여행지 둘러보기, 여행 기록, 커뮤니티까지 여행에 필요한 기능을 한곳에서 만나보세요.">
+  <link rel="icon" href="images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-main">
+  <a class="skip-link" href="#main-content">본문 바로가기</a>
+  <header class="top">
+    <div class="inner">
+      <h1 class="title">
+        <a href="home.html" class="logo-link">
+          <img src="images/logo.png" alt="TRIPICK" class="logo">
+        </a>
+        <span class="txt">
+          <span class="txt2">Your Trip, Our Pick</span>
+        </span>
+      </h1>
+        <p class="header-tagline">나에게 맞는 여행을 찾아보세요 <span class="material-symbols-rounded header-tagline-icon" aria-hidden="true">travel_explore</span></p>
+        <button type="button" class="nav-toggle" aria-label="메뉴 열기" aria-expanded="false" aria-controls="main-menu">
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+        </button>
+      <nav class="menu" id="main-menu" aria-label="메인 메뉴">
+        <div class="menu-hero">
+          <svg class="menu-hero-plane" viewBox="0 0 100 60" fill="none" aria-hidden="true">
+            <path d="M4 44C22 44 26 18 46 14C60 11 70 22 90 10" stroke="currentColor" stroke-width="1.6" stroke-dasharray="3 5" stroke-linecap="round"/>
+            <path d="M86 6l10 4-9 7-1-5-6-2 6-4z" fill="currentColor"/>
+          </svg>
+          <p class="menu-hero-tit">여행은 경험이다,<br>tripick이 함께합니다</p>
+        </div>
+        <div class="menu-links">
+          <a href="recommend.html" class="menu-link">
+            <span class="menu-link-icon material-symbols-rounded" aria-hidden="true">explore</span>
+            <span class="menu-link-label">여행지 추천</span>
+          </a>
+          <a href="browse.html" class="menu-link">
+            <span class="menu-link-icon material-symbols-rounded" aria-hidden="true">map</span>
+            <span class="menu-link-label">여행지 둘러보기</span>
+          </a>
+          <a href="record.html" class="menu-link">
+            <span class="menu-link-icon material-symbols-rounded" aria-hidden="true">edit_note</span>
+            <span class="menu-link-label">여행 기록</span>
+          </a>
+          <a href="about.html" class="menu-link">
+            <span class="menu-link-icon material-symbols-rounded" aria-hidden="true">info</span>
+            <span class="menu-link-label">About</span>
+          </a>
+          <a href="community.html" class="menu-link">
+            <span class="menu-link-icon material-symbols-rounded" aria-hidden="true">forum</span>
+            <span class="menu-link-label">커뮤니티</span>
+          </a>
+        </div>
+        <div class="menu-social" role="group" aria-label="소셜 미디어 (데모, 장식)">
+          <span class="menu-social-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.8"/>
+              <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8"/>
+              <circle cx="17.2" cy="6.8" r="1" fill="currentColor"/>
+            </svg>
+          </span>
+          <span class="menu-social-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="3" y="6" width="18" height="12" rx="3" stroke="currentColor" stroke-width="1.8"/>
+              <path d="M11 10l5 2-5 2v-4z" fill="currentColor"/>
+            </svg>
+          </span>
+          <span class="menu-social-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M12 3C6.9 3 3 6.3 3 10.4c0 2.6 1.7 4.9 4.3 6.2-.2.8-.7 2.5-.8 2.9-.1.5.2.5.4.4.2-.1 2.5-1.7 3.5-2.4.5.1 1.1.1 1.6.1 5.1 0 9-3.3 9-7.2S17.1 3 12 3z" fill="currentColor"/>
+            </svg>
+          </span>
+          <button type="button" class="menu-social-icon menu-share" aria-label="이 페이지 링크 공유하기">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="18" cy="5" r="2.6" stroke="currentColor" stroke-width="1.8"/>
+              <circle cx="6" cy="12" r="2.6" stroke="currentColor" stroke-width="1.8"/>
+              <circle cx="18" cy="19" r="2.6" stroke="currentColor" stroke-width="1.8"/>
+              <path d="M8.2 10.6l7.6-4.2M8.2 13.4l7.6 4.2" stroke="currentColor" stroke-width="1.8"/>
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" tabindex="-1">
+  <section class="main-hero">
+    <div class="inner main-hero-inner">
+      <div class="main-hero-copy">
+        <h2 class="main-hero-tit">당신의 다음 여행을<br>찾아보세요</h2>
+        <p class="main-hero-lead">어디로 떠날지 아직 정하지 못하셨나요?</p>
+        <p class="main-hero-sub">TRIPICK이 당신의 취향에 맞는 여행지를 추천해드립니다</p>
+        <a href="recommend.html" class="btn main-hero-btn">나에게 맞는 여행지 추천받기 <span class="arrow">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="main-popular">
+    <div class="inner">
+      <h2 class="main-section-tit">
+        <span class="main-section-icon main-section-icon-travel" aria-hidden="true">
+          <span class="material-symbols-rounded">travel</span>
+        </span>
+        인기 여행지를 둘러보세요
+      </h2>
+      <div class="main-popular-grid">
+        <a href="detail.html?place=rome" class="main-popular-card">
+          <img src="images/rome.jpg" alt="로마">
+          <span class="place-name">ROME</span>
+          <span class="place-sub">이탈리아 / 로마</span>
+          <span class="place-tag">#역사</span>
+        </a>
+        <a href="detail.html?place=london" class="main-popular-card">
+          <img src="images/london.jpg" alt="런던">
+          <span class="place-name">LONDON</span>
+          <span class="place-sub">영국 / 런던</span>
+          <span class="place-tag">#도시</span>
+        </a>
+        <a href="detail.html?place=danang" class="main-popular-card">
+          <img src="images/danang.jpg" alt="다낭">
+          <span class="place-name">DA NANG</span>
+          <span class="place-sub">베트남 / 다낭</span>
+          <span class="place-tag">#휴양</span>
+        </a>
+        <a href="detail.html?place=taipei" class="main-popular-card">
+          <img src="images/taipei.jpg" alt="타이베이">
+          <span class="place-name">TAIPEI</span>
+          <span class="place-sub">대만 / 타이베이</span>
+          <span class="place-tag">#야시장</span>
+        </a>
+        <a href="detail.html?place=sydney" class="main-popular-card">
+          <img src="images/sydney.jpg" alt="시드니">
+          <span class="place-name">SYDNEY</span>
+          <span class="place-sub">호주 / 시드니</span>
+          <span class="place-tag">#바다</span>
+        </a>
+        <a href="detail.html?place=newyork" class="main-popular-card">
+          <img src="images/newyork.jpg" alt="뉴욕">
+          <span class="place-name">NEW YORK</span>
+          <span class="place-sub">미국 / 뉴욕</span>
+          <span class="place-tag">#뮤지컬</span>
+        </a>
+      </div>
+      <a href="browse.html" class="btn btn-outline">더 많은 여행지 보기 <span class="arrow">→</span></a>
+    </div>
+  </section>
+
+  <section class="main-features">
+    <div class="inner">
+      <div class="main-features-box">
+        <a href="recommend.html" class="main-feature-item">
+          <div class="main-feature-icon main-feature-icon--rec" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="24" r="18" fill="#d3e4fa"/>
+              <circle cx="24" cy="24" r="18" stroke="#3f8ae0" stroke-width="3"/>
+              <path d="M33 15 22.5 22.5 26 26z" fill="#e5573f"/>
+              <path d="M15 33 25.5 25.5 22 22z" fill="#9db9dc"/>
+              <circle cx="24" cy="24" r="2.6" fill="#1f5fae"/>
+            </svg>
+          </div>
+          <h3 class="main-feature-tit">내 취향 맞춤 추천</h3>
+          <p class="main-feature-desc">질문에 답하면<br>맞는 여행지를 찾아드려요</p>
+        </a>
+        <a href="browse.html" class="main-feature-item">
+          <div class="main-feature-icon main-feature-icon--browse" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="24" cy="21" r="13.5" fill="#c9efe1"/>
+              <circle cx="24" cy="21" r="13.5" stroke="#2fa98a" stroke-width="3"/>
+              <path d="M24 7.5v27M11 21h26M24 7.5c4.6 3.8 4.6 23.2 0 27M24 7.5c-4.6 3.8-4.6 23.2 0 27" stroke="#2fa98a" stroke-width="2.3" stroke-linecap="round"/>
+              <path d="M24 34.5V41M17 41h14" stroke="#1f7d64" stroke-width="3" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3 class="main-feature-tit">여행지 둘러보기</h3>
+          <p class="main-feature-desc">국내·해외 인기 여행지를<br>마음껏 둘러보세요</p>
+        </a>
+        <a href="record.html" class="main-feature-item">
+          <div class="main-feature-icon main-feature-icon--record" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M17 14l3-5.5h8L31 14z" fill="#ffd9ad" stroke="#f0912f" stroke-width="3" stroke-linejoin="round"/>
+              <rect x="6" y="14" width="36" height="25" rx="5" fill="#ffd9ad" stroke="#f0912f" stroke-width="3"/>
+              <circle cx="24" cy="27.5" r="7.5" fill="#fff" stroke="#f0912f" stroke-width="3"/>
+              <circle cx="35.5" cy="20.5" r="1.9" fill="#f0912f"/>
+            </svg>
+          </div>
+          <h3 class="main-feature-tit">여행 기록 남기기</h3>
+          <p class="main-feature-desc">다녀온 여행지를<br>기록하고 관리하세요</p>
+        </a>
+        <a href="community.html" class="main-feature-item">
+          <div class="main-feature-icon main-feature-icon--community" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="4" y="9" width="30" height="21" rx="7" fill="#ddd0f9"/>
+              <path d="M13 28l-2.5 8 9.5-6z" fill="#ddd0f9"/>
+              <rect x="20" y="19" width="24" height="18" rx="7" fill="#a583e8"/>
+              <path d="M36 35l2.5 7-8.5-5z" fill="#a583e8"/>
+              <circle cx="28" cy="28" r="1.8" fill="#fff"/>
+              <circle cx="32.5" cy="28" r="1.8" fill="#fff"/>
+              <circle cx="37" cy="28" r="1.8" fill="#fff"/>
+            </svg>
+          </div>
+          <h3 class="main-feature-tit">여행 커뮤니티</h3>
+          <p class="main-feature-desc">꿀팁과 후기를 나누며<br>함께 여행 이야기를 나눠보세요</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="main-closing" aria-labelledby="main-closing-title">
+    <div class="main-closing-bg" aria-hidden="true"></div>
+    <div class="main-closing-overlay" aria-hidden="true"></div>
+    <div class="inner main-closing-inner">
+      <div class="main-closing-icon" aria-hidden="true">
+        <svg viewBox="0 0 80 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="58" cy="14" r="8" stroke="currentColor" stroke-width="2"/>
+          <path d="M8 44c12-8 24-8 36 0s24 8 36 0" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          <path d="M28 44V32l4-6 4 4 6-10 6 14" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+          <path d="M22 38c0-6 4-10 10-10s10 4 10 10" stroke="currentColor" stroke-width="2"/>
+          <path d="M32 28V22M36 26l2-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <h2 class="main-closing-brand" id="main-closing-title">TRIPICK</h2>
+      <p class="main-closing-quote">
+        여행은 멀리 떠나는 것이 아니라,<br>
+        새로운 순간을 마음에 담는 일입니다.
+      </p>
+      <span class="main-closing-rule" aria-hidden="true"></span>
+      <p class="main-closing-sub">Your Trip, Our Pick</p>
+    </div>
+  </section>
+  </main>
+
+  <footer class="footer main-footer">
+    <div class="top main-footer-bar">
+      <div class="inner">
+        <div class="title">
+          <a href="home.html" class="logo-link">
+            <img src="images/logo.png" alt="" class="logo">
+          </a>
+          <div class="txt">
+            <span class="txt2">Your Trip, Our Pick</span>
+          </div>
+        </div>
+        <nav class="menu main-footer-menu" aria-label="푸터 메뉴 (데모)">
+          <span class="main-footer-label">이용약관</span>
+          <span class="main-footer-sep" aria-hidden="true">|</span>
+          <span class="main-footer-label">개인정보처리방침</span>
+          <span class="main-footer-sep" aria-hidden="true">|</span>
+          <span class="main-footer-label">문의하기</span>
+        </nav>
+        <div class="main-footer-social" role="group" aria-label="소셜 미디어 (데모, 장식)">
+          <span class="main-footer-social-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.8"/>
+              <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8"/>
+              <circle cx="17.2" cy="6.8" r="1" fill="currentColor"/>
+            </svg>
+          </span>
+          <span class="main-footer-social-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="3" y="6" width="18" height="12" rx="3" stroke="currentColor" stroke-width="1.8"/>
+              <path d="M11 10l5 2-5 2v-4z" fill="currentColor"/>
+            </svg>
+          </span>
+          <span class="main-footer-social-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M12 3C6.9 3 3 6.3 3 10.4c0 2.6 1.7 4.9 4.3 6.2-.2.8-.7 2.5-.8 2.9-.1.5.2.5.4.4.2-.1 2.5-1.7 3.5-2.4.5.1 1.1.1 1.6.1 5.1 0 9-3.3 9-7.2S17.1 3 12 3z" fill="currentColor"/>
+            </svg>
+          </span>
+          <button type="button" class="main-footer-social-icon main-footer-share" aria-label="이 페이지 링크 공유하기">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="18" cy="5" r="2.6" stroke="currentColor" stroke-width="1.8"/>
+              <circle cx="6" cy="12" r="2.6" stroke="currentColor" stroke-width="1.8"/>
+              <circle cx="18" cy="19" r="2.6" stroke="currentColor" stroke-width="1.8"/>
+              <path d="M8.2 10.6l7.6-4.2M8.2 13.4l7.6 4.2" stroke="currentColor" stroke-width="1.8"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="main-footer-rule" aria-hidden="true"></div>
+    <div class="inner main-footer-copy-wrap">
+      <p class="main-footer-copy">
+        <span class="main-footer-copy-line">© 2026 TRIPICK</span>
+        <span class="main-footer-copy-line">All rights reserved.</span>
+        <span class="main-footer-copy-email">kw430@naver.com</span>
+      </p>
+    </div>
+  </footer>
+  <script src="nav.js"></script>
+  <script src="share.js?v=3"></script>
+</body>
+</html>
